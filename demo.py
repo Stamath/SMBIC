@@ -24,7 +24,7 @@ mathcalK=np.arange(1,Kmax+1)
 
 # SM-BIC for SBM ############################
 # insert the path of functions ####################
-sys.path.insert(0,'/SMBIC/code/Functions')
+sys.path.insert(0,'/SMBIC/Functions')
 # import required functions############################
 from SPARSE_SBM import SPARSE_SBM
 from SMBIC_sbm import SMBIC_sbm
